@@ -1,0 +1,89 @@
+section {
+    display: grid;
+    height: 900px;
+    width: 800px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 5px;
+
+}
+
+section .logo{
+    height: 150px;
+    grid-column: 1/span 1;
+    grid-row: 1/span 1;
+  
+    background:rgb(224, 220, 220);
+}
+
+section .cabecalho{
+    text-align: center;
+    height: 150px;
+    color: rgb(30, 25, 102);
+    grid-column: 2/span 4;
+    grid-row: 1/span 1;
+    background-color: rgb(224, 220, 220)
+}
+
+section .links{
+    grid-column: 1/span 1;
+    grid-row: 3/span 2;
+    text-align: justify;
+    background:rgb(238, 220, 196)
+
+}
+
+section .links h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+section .links h4{
+    text-align: center;
+}
+
+section header{
+    display: flex;
+    height: 50px;
+    grid-column: 1/span 5;
+    grid-row: 2/span 1;
+    flex-direction: row;
+    justify-content: space-around;
+    background: rgb(163, 238, 188);
+
+}
+
+section .plano1{
+    grid-column: 2/span 1;
+    grid-row: 3/span 1;
+    background:rgb(224, 220, 220) 
+}
+
+section .plano2{
+    grid-column: 3/span 1;
+    grid-row: 3/span 1;
+    background:rgb(224, 220, 220)
+}
+
+section .plano3{
+    grid-column: 4/span 1;
+    grid-row: 3/span 1;
+    background:rgb(224, 220, 220)
+}
+
+section .plano4{
+    grid-column: 5/span 1;
+    grid-row: 3/span 1;
+    background: rgb(224, 220, 220)
+}
+
+section .rodape{
+   text-align: center;
+    height: 40px;
+    grid-column: 1/span 5;
+    grid-row: 5/span 1;
+    word-spacing: 10px;
+    background: rgb(224, 220, 220)
+
+}
